@@ -11,6 +11,5 @@ object demo
     {
         val s= new Student();
         s.Welcome("Vudthi", 168, "A");
-        val s= new Student();
     }
 }        
