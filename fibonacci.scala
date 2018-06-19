@@ -2,15 +2,15 @@ object fibonacci
 {
     def main(args: Array[String])
     {
-        calculate(scala.io.StdIn.readInt());
+        calculate(10);
     }
     def calculate(amount: Int):Int=
     {
-        var a:Int=0;
-        var b:Int=1;
+        var a=0;
+        var b=1;
         var c = new Array[Int](100);
-        var i:Int=0;
-        var j:Int=0;
+        var i=0;
+        var j=0;
         while( i < amount )
         {
             c(i)=a+b;
