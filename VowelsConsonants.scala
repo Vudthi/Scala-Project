@@ -3,7 +3,7 @@ object string
     def main(args: Array[String])
     {
         //println("Please Input a String")
-        var input="Kirirom Institute Of Technology";
+        var input="Kirirom Institute Of Technology"
         var vowel:Int=0;
         var i=0;
         var consonant:String="";
